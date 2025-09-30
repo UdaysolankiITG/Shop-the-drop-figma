@@ -7,12 +7,12 @@ body {
   background-color: black;
 }
 
-.page_width {
+/* .page_width {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   padding: 10px;
-}
+} */
 header {
   background-color: black;
   margin: auto;
@@ -572,16 +572,220 @@ input.signup-form {
   font-family: "inter tight", sans-serif;
 }
 
-@media only screen and (max-width: 1024px) {
-  /* header {
-    width: 60%;
-  } */
-  /* .header_btn {
-    font-size: 11px;
-    line-height: 1.6;
-    letter-spacing: 9px;
-    border-radius: 24px;
-    padding: 10px 14px;
-    border: none;
-  } */
+
+.page_width {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px; 
 }
+
+/* @media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .list {
+    margin-left: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .list_li {
+    font-size: 15px;
+  }
+
+  .header_btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: auto;
+  }
+
+  .ratings {
+    width: auto;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 16px;
+  }
+
+  .txt_container {
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+  }
+
+  .maintxt {
+    font-size: 36px;
+  }
+
+  .product {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .product_title {
+    font-size: 18px;
+  }
+
+  .size {
+    width: 30%;
+    height: 30px;
+  }
+
+  .color {
+    width: 15px;
+    height: 15px;
+  }
+
+  .card_heading {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 10px;
+  }
+
+  .second_btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  .FormSection {
+    max-width: 100%;
+    margin: 30px 15px;
+    padding: 30px 20px;
+  }
+
+  .f_img {
+    height: 220px;
+    background-position-y: 25%;
+  }
+
+  .banner-form-h {
+    font-size: 28px;
+  }
+
+  input.signup-form {
+    width: 100%;
+  }
+
+  .img-main {
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  .list {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 12px;
+  }
+
+  .list_li {
+    font-size: 14px;
+  }
+
+  .header_btn {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 14px;
+  }
+
+  .ratings {
+    width: 100%;
+    font-size: 12px;
+    gap: 8px;
+    padding: 5px 12px;
+  }
+
+  .txt_container {
+    width: 90%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+
+  .maintxt {
+    font-size: 28px;
+  }
+
+  .product {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 0 10px;
+  }
+
+  .product_title {
+    font-size: 16px;
+  }
+
+  .size {
+    width: 50%;
+    height: 30px;
+  }
+
+  .color {
+    width: 20px;
+    height: 20px;
+  }
+
+  .card_heading {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .second_btn {
+    width: 100%;
+    margin: 10px auto 25px auto;
+    font-size: 14px;
+    padding: 14px 0;
+  }
+
+  .FormSection {
+    padding: 20px 15px;
+    margin: 25px 10px;
+  }
+
+  .f_img {
+    height: 180px;
+    background-position-y: 30%;
+  }
+
+  .banner-form-h {
+    font-size: 24px;
+  }
+
+  input.signup-form {
+    width: 100%;
+  }
+
+  .img-main {
+    padding: 30px 15px;
+    flex-direction: column;
+    gap: 25px;
+  }
+} */
+
+
